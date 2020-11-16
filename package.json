@@ -1,0 +1,27 @@
+{
+  "name": "action-editorconfig-checker",
+  "version": "1.0.0",
+  "description": "This action uses [editorconfig/editorconfig](https://github.com/editorconfig-checker/editorconfig-checker#usage) to validate files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomtomsen/action-editorconfig-checker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomtomsen/action-editorconfig-checker/issues"
+  },
+  "homepage": "https://github.com/tomtomsen/action-editorconfig-checker#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.25.1"
+  }
+}
