@@ -1,4 +1,7 @@
 #!/bin/sh -l
 
+echo $PWD
+which ec
 output=$(ec)
-   echo "::set-output name=output::$output"
+echo $output
+echo "::set-output name=output::$output"
