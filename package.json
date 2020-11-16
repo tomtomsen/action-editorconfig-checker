@@ -6,7 +6,9 @@
 	"scripts": {
 		"build": "ncc build",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"pre-checkin": "npm run build"
+		"pre-checkin": "npm run lint && npm run build",
+		"lint": "npm run lint:editorconfig",
+		"lint:editorconfig": "editorconfig-checker"
 	},
 	"repository": {
 		"type": "git",
@@ -20,7 +22,8 @@
 	},
 	"homepage": "https://github.com/tomtomsen/action-editorconfig-checker#readme",
 	"dependencies": {
-		"@actions/core": "^1.2.6"
+		"@actions/core": "^1.2.6",
+		"editorconfig-checker": "github:editorconfig-checker/editorconfig-checker.javascript"
 	},
 	"devDependencies": {
 		"@vercel/ncc": "^0.25.1"
