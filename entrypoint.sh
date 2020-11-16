@@ -1,4 +1,4 @@
 #!/bin/sh -l
 
 output=$(ec)
-echo ::set-output name=output::$output
+   echo "::set-output name=output::$output"
