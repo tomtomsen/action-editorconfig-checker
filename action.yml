@@ -7,4 +7,4 @@ outputs:
     description: 'validation results'
 runs:
   using: 'node12'
-  image: 'index.js'
+  main: 'dist/index.js'
