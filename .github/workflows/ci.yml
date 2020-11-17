@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: tomtomsen/action-editorconfig-checker@test-workflow
+      - uses: tomtomsen/action-editorconfig-checker@tests
